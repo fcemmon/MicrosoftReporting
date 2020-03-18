@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwissQrcodeGenerator", "SwissQrcodeGenerator\SwissQrcodeGenerator.csproj", "{CCFB3123-1479-48A2-827E-D4AAC837FE84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCFB3123-1479-48A2-827E-D4AAC837FE84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCFB3123-1479-48A2-827E-D4AAC837FE84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCFB3123-1479-48A2-827E-D4AAC837FE84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCFB3123-1479-48A2-827E-D4AAC837FE84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35E40B28-D3B7-4BA8-9F1B-BE95732FE275}
+	EndGlobalSection
+EndGlobal

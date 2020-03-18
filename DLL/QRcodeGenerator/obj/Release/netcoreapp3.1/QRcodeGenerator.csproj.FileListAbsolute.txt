@@ -1,0 +1,8 @@
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\QRcodeGenerator\bin\Release\netcoreapp3.1\QRcodeGenerator.deps.json
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\QRcodeGenerator\bin\Release\netcoreapp3.1\QRcodeGenerator.dll
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\QRcodeGenerator\bin\Release\netcoreapp3.1\QRcodeGenerator.pdb
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\QRcodeGenerator\obj\Release\netcoreapp3.1\QRcodeGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\QRcodeGenerator\obj\Release\netcoreapp3.1\QRcodeGenerator.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\QRcodeGenerator\obj\Release\netcoreapp3.1\QRcodeGenerator.AssemblyInfo.cs
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\QRcodeGenerator\obj\Release\netcoreapp3.1\QRcodeGenerator.dll
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\QRcodeGenerator\obj\Release\netcoreapp3.1\QRcodeGenerator.pdb

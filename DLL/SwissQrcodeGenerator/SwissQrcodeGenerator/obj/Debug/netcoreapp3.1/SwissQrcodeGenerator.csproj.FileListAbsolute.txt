@@ -1,0 +1,9 @@
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\SwissQrcodeGenerator\SwissQrcodeGenerator\bin\Debug\netcoreapp3.1\SwissQrcodeGenerator.deps.json
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\SwissQrcodeGenerator\SwissQrcodeGenerator\bin\Debug\netcoreapp3.1\SwissQrcodeGenerator.dll
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\SwissQrcodeGenerator\SwissQrcodeGenerator\obj\Debug\netcoreapp3.1\SwissQrcodeGenerator.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\SwissQrcodeGenerator\SwissQrcodeGenerator\obj\Debug\netcoreapp3.1\SwissQrcodeGenerator.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\SwissQrcodeGenerator\SwissQrcodeGenerator\obj\Debug\netcoreapp3.1\SwissQrcodeGenerator.AssemblyInfo.cs
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\SwissQrcodeGenerator\SwissQrcodeGenerator\obj\Debug\netcoreapp3.1\SwissQrcodeGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\SwissQrcodeGenerator\SwissQrcodeGenerator\bin\Debug\netcoreapp3.1\SwissQrcodeGenerator.pdb
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\SwissQrcodeGenerator\SwissQrcodeGenerator\obj\Debug\netcoreapp3.1\SwissQrcodeGenerator.dll
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\SwissQrcodeGenerator\SwissQrcodeGenerator\obj\Debug\netcoreapp3.1\SwissQrcodeGenerator.pdb

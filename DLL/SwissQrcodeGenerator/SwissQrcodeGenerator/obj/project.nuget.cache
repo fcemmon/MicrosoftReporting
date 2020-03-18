@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "OKJLhUr81JFpuemfhXjNPQZFH1WvJdgs7zMp3Xrn3LJFfOUMX4jpsljr9TiGvyM4cO3eELVVav+1bey2JwkMbQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\proj\\MicrosoftReporting\\proj\\DLL\\SwissQrcodeGenerator\\SwissQrcodeGenerator\\SwissQrcodeGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\codecrete.swissqrbill.generator\\2.2.2\\codecrete.swissqrbill.generator.2.2.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.win32.systemevents\\4.5.0\\microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\net.codecrete.qrcodegenerator\\1.5.0\\net.codecrete.qrcodegenerator.1.5.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.drawing.common\\4.5.1\\system.drawing.common.4.5.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}
