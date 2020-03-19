@@ -1,0 +1,7 @@
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\QrCodeGenerator\bin\Release\QrCodeGenerator.dll
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\QrCodeGenerator\bin\Release\QrCodeGenerator.pdb
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\QrCodeGenerator\bin\Release\System.Drawing.Common.dll
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\QrCodeGenerator\obj\Release\QrCodeGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\QrCodeGenerator\obj\Release\QrCodeGenerator.csproj.CopyComplete
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\QrCodeGenerator\obj\Release\QrCodeGenerator.dll
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\QrCodeGenerator\obj\Release\QrCodeGenerator.pdb

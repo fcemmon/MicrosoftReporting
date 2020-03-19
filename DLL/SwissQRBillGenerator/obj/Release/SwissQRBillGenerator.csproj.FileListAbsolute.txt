@@ -1,0 +1,8 @@
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\SwissQRBillGenerator\bin\Release\SwissQRBillGenerator.dll
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\SwissQRBillGenerator\bin\Release\SwissQRBillGenerator.pdb
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\SwissQRBillGenerator\bin\Release\SwissBillQR.Net.dll
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\SwissQRBillGenerator\obj\Release\SwissQRBillGenerator.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\SwissQRBillGenerator\obj\Release\SwissQRBillGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\SwissQRBillGenerator\obj\Release\SwissQRBillGenerator.csproj.CopyComplete
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\SwissQRBillGenerator\obj\Release\SwissQRBillGenerator.dll
+C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\SwissQRBillGenerator\obj\Release\SwissQRBillGenerator.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uFAf18Fpqce+dSrJUiugDNb+H2QbcaiOXsU7m/G6Fbdl65Ks5hSxK93r39J0tbDyPZEgxCQNmUeZaV0LToNciw==",
+  "dgSpecHash": "cnELoVABUZbRafwO92RYI/KHGipra+wPMUXv1Wb46vB8coMZWKe8iHJTnAiPXZG9GuQXxRcj+b+Fz3dc1pMPpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Documents\\proj\\MicrosoftReporting\\proj\\DLL\\QRcodeGenerator\\QRcodeGenerator.csproj",
+  "projectFilePath": "\\\\10.10.10.201\\work\\MyWork\\Microsoftreporting\\proj\\DLL\\QRcodeGenerator\\QRcodeGenerator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\codecrete.swissqrbill.generator\\2.2.2\\codecrete.swissqrbill.generator.2.2.2.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",

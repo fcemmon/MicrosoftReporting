@@ -1,18 +1,19 @@
 ﻿using System;
 using QRcodeGenerator.models;
 using Codecrete.SwissQRBill.Generator;
+using System.Linq;
+using Codecrete.SwissQRBill.Generator.Canvas;
 
 namespace QRcodeGenerator
 {
     public class QRcodeGenerator
     {
-        QRCode code;
-
+        Bill code;
         public static QRcodeGenerator Instance(
             string account,
             string creditorName,
-            string creditorAddresssLine1,
-            string creditorAddresssLine2,
+            string creditorAddressLine1,
+            string creditorAddressLine2,
             string creditorCountryCode,
             decimal amount,
             string currency,
@@ -25,8 +26,8 @@ namespace QRcodeGenerator
         {
             QRcodeGenerator instance = new QRcodeGenerator(account,
                 creditorName,
-                creditorAddresssLine1,
-                creditorAddresssLine2,
+                creditorAddressLine1,
+                creditorAddressLine2,
                 creditorCountryCode,
                 amount,
                 currency,
@@ -55,7 +56,7 @@ namespace QRcodeGenerator
             string reference,
             string unstructuredMessage)
         {
-            code = new QRCode
+            code = new Bill
             {
                 Account = account,
                 Creditor = new Address
@@ -79,20 +80,49 @@ namespace QRcodeGenerator
             };
         }
 
-        public byte[] generateQRcode()
+        public static byte[] generateQRcode(
+            string account,
+            string creditorName,
+            string creditorAddressLine1,
+            string creditorAddressLine2,
+            string creditorCountryCode,
+            decimal amount,
+            string currency,
+            string debtorName,
+            string debtorAddressLine1,
+            string debtorAddressLine2,
+            string debtorCountryCode,
+            string reference,
+            string unstructuredMessage)
         {
             Bill bill = new Bill
             {
-                Account = this.code.Account,
-                Creditor = this.code.Creditor,
-                Amount = this.code.Amount,
-                Currency = this.code.Currency,
-                Debtor = this.code.Debtor,
-                Reference = this.code.Reference,
-                UnstructuredMessage = this.code.UnstructuredMessage
+                Account = account,
+                Creditor = new Address
+                {
+                    Name = creditorName,
+                    AddressLine1 = creditorAddressLine1,
+                    AddressLine2 = creditorAddressLine2,
+                    CountryCode = creditorCountryCode
+                },
+                Amount = amount,
+                Currency = currency,
+                Debtor = new Address
+                {
+                    Name = debtorName,
+                    AddressLine1 = debtorAddressLine1,
+                    AddressLine2 = debtorAddressLine2,
+                    CountryCode = debtorCountryCode
+                },
+                Reference = reference,
+                UnstructuredMessage = unstructuredMessage
             };
-
-            byte[] svg = QRBill.Generate(bill);
+            string path = "qrbill.png";
+            using (PNGCanvas canvas = new PNGCanvas(QRBill.QrBillWidth, QRBill.QrBillHeight, 144, "Arial"))
+            {
+                QRBill.Draw(bill, canvas);
+                canvas.SaveAs(path);
+            }
 
             return svg;
         }

@@ -7,3 +7,12 @@ C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\QRcodeGenerato
 C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\QRcodeGenerator\bin\Debug\netcoreapp3.1\QRcodeGenerator.pdb
 C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\QRcodeGenerator\obj\Debug\netcoreapp3.1\QRcodeGenerator.dll
 C:\Users\Administrator\Documents\proj\MicrosoftReporting\proj\DLL\QRcodeGenerator\obj\Debug\netcoreapp3.1\QRcodeGenerator.pdb
+\\10.10.10.201\work\MyWork\Microsoftreporting\proj\DLL\QRcodeGenerator\bin\Debug\netcoreapp3.1\QRcodeGenerator.deps.json
+\\10.10.10.201\work\MyWork\Microsoftreporting\proj\DLL\QRcodeGenerator\bin\Debug\netcoreapp3.1\QRcodeGenerator.dll
+\\10.10.10.201\work\MyWork\Microsoftreporting\proj\DLL\QRcodeGenerator\bin\Debug\netcoreapp3.1\QRcodeGenerator.pdb
+\\10.10.10.201\work\MyWork\Microsoftreporting\proj\DLL\QRcodeGenerator\obj\Debug\netcoreapp3.1\QRcodeGenerator.csprojAssemblyReference.cache
+\\10.10.10.201\work\MyWork\Microsoftreporting\proj\DLL\QRcodeGenerator\obj\Debug\netcoreapp3.1\QRcodeGenerator.csproj.CoreCompileInputs.cache
+\\10.10.10.201\work\MyWork\Microsoftreporting\proj\DLL\QRcodeGenerator\obj\Debug\netcoreapp3.1\QRcodeGenerator.AssemblyInfoInputs.cache
+\\10.10.10.201\work\MyWork\Microsoftreporting\proj\DLL\QRcodeGenerator\obj\Debug\netcoreapp3.1\QRcodeGenerator.AssemblyInfo.cs
+\\10.10.10.201\work\MyWork\Microsoftreporting\proj\DLL\QRcodeGenerator\obj\Debug\netcoreapp3.1\QRcodeGenerator.dll
+\\10.10.10.201\work\MyWork\Microsoftreporting\proj\DLL\QRcodeGenerator\obj\Debug\netcoreapp3.1\QRcodeGenerator.pdb

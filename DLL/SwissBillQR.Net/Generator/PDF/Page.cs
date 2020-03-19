@@ -1,0 +1,42 @@
+﻿//
+// Swiss QR Bill Generator for .NET
+// Copyright (c) 2018 Manuel Bleichenbacher
+// Licensed under MIT License
+// https://opensource.org/licenses/MIT
+//
+
+using System.Collections.Generic;
+using System.IO;
+
+namespace SwissBillQR.Net.Generator.PDF
+{
+    /// <summary>
+    /// Page in PDF document.
+    /// </summary>
+    public class Page : IWritable
+    {
+        private readonly GeneralDict _dict;
+
+        public ContentStream Contents { get; }
+
+        internal Page(Document document, Reference parent, float width, float height)
+        {
+            _dict = new GeneralDict("Page");
+            _dict.Add("Parent", parent);
+            _dict.Add("MediaBox", new List<float> { 0, 0, width, height });
+
+            ResourceDict resources = new ResourceDict(document);
+            Reference resourcesRef = document.CreateReference(resources);
+            _dict.Add("Resources", resourcesRef);
+
+            Contents = new ContentStream(resources);
+            Reference contentsRef = document.CreateReference(Contents);
+            _dict.Add("Contents", contentsRef);
+        }
+
+        void IWritable.Write(StreamWriter writer)
+        {
+            ((IWritable)_dict).Write(writer);
+        }
+    }
+}
