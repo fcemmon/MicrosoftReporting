@@ -19,7 +19,7 @@ These are the steps required to create an SSRS report that displays QR code symb
 
 ## Resource File Content
 
-![Image description](https://monosnap.com/file/aMr0MasIIRkw13czEXsNO1JrEbTuH1)
+![](Screens/DLL 2020-03-19 14.51.09.png)
 
 The QRCodeGenerator, SwissBillQR.Net, and SwissQRBillGenerator folders contains C# projects used to compile the QR Coder demo application and assemblies. (You can load these projects into Visual Studio and compile them yourself if you wish.)
 
@@ -29,7 +29,7 @@ DLLs folder contains the assemblies that will be used to generate QR Codes in an
 
 Browse to the DLLs folder.
 
-![Image description](https://monosnap.com/file/MjkwQmkGlqlkytP6JlHAOG0tbnD34Z)
+![](https://monosnap.com/file/MjkwQmkGlqlkytP6JlHAOG0tbnD34Z)
 
 The QrCodeGenerator.dll assembly can generate QR Code symbols from an input string in a variety of image formats including svn.
 
@@ -41,7 +41,7 @@ SQL Server Reporting Services cannot display images directly, however, but requi
 
 Find gacutil.exe with Agent Ransack or File Explorer.
 
-![Image description](https://monosnap.com/file/BAn4QCzcZs93Q95GuttRcmqfns0ES6)
+![](https://monosnap.com/file/BAn4QCzcZs93Q95GuttRcmqfns0ES6)
 
 Copy the path of the appropriate 32- or 64-bit version of gacutil.exe:
 
@@ -55,11 +55,11 @@ Install the assemblies to the GAC with the following commands:
 
 "C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64\gacutil.exe" -i SwissBillQRcodeGenerator.dll
 
-![Image description](https://monosnap.com/file/5LY3mTWXePK01N4AEfSp6tOaAzw6al)
+![](https://monosnap.com/file/5LY3mTWXePK01N4AEfSp6tOaAzw6al)
 
 Confirm the assemblies have been added to the C:\Windows\Microsoft.NET\assembly\GAC_MSIL folder.
 
-![Image description](https://monosnap.com/file/X18C0IdMYkuzJML8CZ0E4LGh3CbFlw)
+![](https://monosnap.com/file/X18C0IdMYkuzJML8CZ0E4LGh3CbFlw)
 
 ## Create test data for the report
 
@@ -117,11 +117,11 @@ Then to My Computer->Runtime Security Policy node on the left and clicking
 
 Start a new Report Server Project Wizard in Visual Studio.
 
-![Image description](https://monosnap.com/file/isL5Mrti1I7qm6Drtom9lLpJu8hpKB)
+![](https://monosnap.com/file/isL5Mrti1I7qm6Drtom9lLpJu8hpKB)
 
 Insert the appropriate connection string information.
 
-![Image description](https://monosnap.com/file/2yqWhNRyxdWJneAvKXxfhoWJOh2pp7)
+![](https://monosnap.com/file/2yqWhNRyxdWJneAvKXxfhoWJOh2pp7)
 
 Insert the following code into the Query string text box.
 
@@ -129,7 +129,7 @@ Insert the following code into the Query string text box.
 
 Select tabular report type.
 
-![Image description](https://monosnap.com/file/i4vXHdjV3P3gmGd8nQhbYHQifKkw1h)
+![](https://monosnap.com/file/i4vXHdjV3P3gmGd8nQhbYHQifKkw1h)
 
 Move the all fields into the Details text box.
 
@@ -139,7 +139,7 @@ Select Report Properties from the Report field in Extensions menu.
 
 Click on the References tab followed by the add button then the browse tab and browse to the SwissQRBillGenerator.dll assembly in the GAC.
 
-![Image description](https://monosnap.com/file/AMpSwyX5EH5dVw8M5IkcBvi1813dkm)
+![](https://monosnap.com/file/AMpSwyX5EH5dVw8M5IkcBvi1813dkm)
 
 Click on the Code tab and add the following function to the custom code text box:
 
@@ -149,7 +149,7 @@ Public Function QRcodeGeneration(ByVal account As String, ByVal creditorName As 
 End Function
 ```
 
-![Image description](https://monosnap.com/file/C1j3dGkGFtsgsXAmiKDdVNq0fPcMix)
+![](https://monosnap.com/file/C1j3dGkGFtsgsXAmiKDdVNq0fPcMix)
 
 Right-click on the top of the Unstructured Message column and insert a new column to the right.
 
@@ -157,11 +157,11 @@ Increase the height of the data row and the width of the new column to make room
 
 Drag-and-drop an image component into the new field to bring up the image properties window.
 
-![Image description](https://monosnap.com/file/bTIDFn57jPQCZ76MrMn9r1Ls0PbRWh)
+![](https://monosnap.com/file/bTIDFn57jPQCZ76MrMn9r1Ls0PbRWh)
 
 Select Database as the image source and click on the use this field function button.
 
-![Image description](https://monosnap.com/file/zPUWbgpZM1Nz5mYgUCV62VdHvexMJR)
+![](https://monosnap.com/file/zPUWbgpZM1Nz5mYgUCV62VdHvexMJR)
 
 Enter the following code into the expression text box:
 
@@ -169,15 +169,15 @@ Enter the following code into the expression text box:
 =Code.QRcodeGeneration(Fields!Account.Value, Fields!CreditorName.Value, Fields!CreditorAddressLine1.Value, Fields!CreditorAddressLine2.Value, Fields!CreditorCountryCode.Value, Fields!Amount.Value, Fields!Currency.Value, Fields!DebtorName.Value, Fields!DebtorAddressLine1.Value, Fields!DebtorAddressLine2.Value, Fields!DebtorCountryCode.Value, Fields!Reference.Value, Fields!UnstructuredMessage.Value)
 ```
 
-![Image description](https://monosnap.com/file/egcdKndbyC01drcz2unR0JJJGezsH9)
+![](https://monosnap.com/file/egcdKndbyC01drcz2unR0JJJGezsH9)
 
 Select image/png as MIME type:
 
-![Image description](https://monosnap.com/file/kKLn38GYuWL6HifZwF96Ainji2wGMM)
+![](https://monosnap.com/file/kKLn38GYuWL6HifZwF96Ainji2wGMM)
 
 Click on the size node and select the fit proportional radio button and click OK.
 
-![Image description](https://monosnap.com/file/d3lmwrIwWbta8DAuI1rgCAi5XaIsGo)
+![](https://monosnap.com/file/d3lmwrIwWbta8DAuI1rgCAi5XaIsGo)
 
 Click on the Preview tab of the report console.
 
