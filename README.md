@@ -19,7 +19,7 @@ These are the steps required to create an SSRS report that displays QR code symb
 
 ## Resource File Content
 
-![](Screens/DLL 2020-03-19 14.51.09.png)
+![](Screens/Resource%20File%20Content.png)
 
 The QRCodeGenerator, SwissBillQR.Net, and SwissQRBillGenerator folders contains C# projects used to compile the QR Coder demo application and assemblies. (You can load these projects into Visual Studio and compile them yourself if you wish.)
 
