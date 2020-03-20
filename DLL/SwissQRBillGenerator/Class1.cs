@@ -123,11 +123,13 @@ namespace SwissQRBillGenerator
                 Reference = reference,
                 UnstructuredMessage = unstructuredMessage
             };
+
+            bill.Format.OutputSize = OutputSize.QrCodeOnly;
             
             string path = "qrbill.png";
             using (PNGCanvas canvas = new PNGCanvas(QRBill.QrBillWidth, QRBill.QrBillHeight, 144, "Arial"))
             {
-               QRBill.Draw(bill, canvas);
+               QRBill.DrawQrBillOnly(bill, canvas);
                 canvas.SaveAs(path);
             }
 

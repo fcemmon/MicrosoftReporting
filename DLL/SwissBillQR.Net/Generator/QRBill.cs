@@ -158,6 +158,23 @@ namespace SwissBillQR.Net.Generator
             }
         }
 
+        public static void DrawQrBillOnly(Bill bill, ICanvas canvas)
+        {
+            bill.Format.OutputSize = OutputSize.QrBillOnly;
+            try
+            {
+                ValidateAndGenerate(bill, canvas);
+            }
+            catch (QRBillValidationException)
+            {
+                throw;
+            }
+            catch (Exception e)
+            {
+                throw new QRBillGenerationException("Failed to generate QR bill", e);
+            }
+        }
+
         private static void ValidateAndGenerate(Bill bill, ICanvas canvas)
         {
             ValidationResult result = Validator.Validate(bill);

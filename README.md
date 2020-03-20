@@ -108,10 +108,29 @@ Execute the query to create a database named TestDB and a table named TestData t
 
 ## Allow FileIOPermission
 
-Go to Control Panel / Administrative Tools / Microsoft .NET Framework
-Configuration / configure security settings.
-Then to My Computer->Runtime Security Policy node on the left and clicking
-"Adjust Zone Security" link on the right side , give it full trust- give full trust to the Local Intranet also.And the error gine.
+Search RSPreviewPolicy.config and update PermissionSet is named FullTrust
+
+```
+<PermissionSet
+        class="NamedPermissionSet"
+        version="1"
+        Unrestricted="true"
+        Name="FullTrust"
+        Description="Allows full access to all resources">
+        <IPermission class="FileIOPermission"  version="1"  />
+        <IPermission class="SecurityPermission"  
+           version="1"  
+           Flags="Assertion, Execution"/>
+</PermissionSet>
+```
+
+Replace PermissionSet is named FullTrust to CodeGroup instead of original PermissionSet
+```
+<CodeGroup 
+    class="FirstMatchCodeGroup"
+    version="1"
+    PermissionSetName="FullTrust">
+```
 
 ## Create and execute the QRCoder Demo SSRS report
 
